@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/Todo-App-final/static/css/main.35e99f1e.css",
+    "main.js": "/Todo-App-final/static/js/main.e7345363.js",
+    "static/media/hand-holding-writing-checklist-application-form-document-clipboard-white-background-3d-illustration.jpg": "/Todo-App-final/static/media/hand-holding-writing-checklist-application-form-document-clipboard-white-background-3d-illustration.a03e3a6918e81585b3c9.jpg",
+    "index.html": "/Todo-App-final/index.html",
+    "main.35e99f1e.css.map": "/Todo-App-final/static/css/main.35e99f1e.css.map",
+    "main.e7345363.js.map": "/Todo-App-final/static/js/main.e7345363.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.35e99f1e.css",
+    "static/js/main.e7345363.js"
+  ]
+}
