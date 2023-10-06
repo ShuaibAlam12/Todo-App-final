@@ -1,13 +1,172 @@
-body {
+*{
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Source Sans pro",sans-serif;
+}
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+.image{
+height: 100px;
+width: 100px;
+}
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+html{
+  font-size: 62.5%;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.main_div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: #f0f0f0;
 }
+.child_div {
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  padding: 20px;
+  width: 400px;
+  text-align: center; 
+}
+
+
+.child_div img.image {
+  width: 100px;
+  height: auto;
+}
+
+
+.add_items {
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+}
+
+.add_items input[type="text"] {
+  flex: 1;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-right: 10px;
+}
+
+.add_items i.add-btn {
+  background-color: #007bff;
+  color: #fff;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.add_items i.add-btn:hover {
+  background-color: #0056b3;
+}
+
+
+.eachItem {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 10px 0;
+}
+
+.eachItem h2 {
+  flex-grow: 1;
+  margin-right: 10px;
+}
+
+.eachItem i.add-btn {
+  font-size: 24px;
+  color: #ff0000;
+  cursor: pointer;
+}
+
+.eachItem i.add-btn:hover {
+  color: #ff6600;
+}
+
+
+.showItems button {
+  background-color: #ff0000;
+  color: #fff;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.showItems button:hover {
+  background-color: #cc0000;
+}
+
+.footer{
+  text-align: center;
+  font-size: medium;
+}
+
+.main-heading {
+  font-family: "Arial", sans-serif; 
+  font-size: 36px; 
+  font-weight: bold; 
+  color: #333; 
+  text-align: center; 
+  text-transform: uppercase; 
+  margin-bottom: 20px;   
+                    
+}
+
+
+.main-heading {
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.footer {
+  background-color: #333; 
+  color: #fff; 
+  padding: 20px; 
+  text-align: center; 
+}
+
+
+.footer a {
+  color: #fff; 
+  text-decoration: none; 
+  margin: 0 10px; 
+}
+
+
+.footer a:hover {
+  text-decoration: underline; 
+}
+
+.showItems button {
+  background-color: #007bff; 
+  color: #fff; 
+  border: none; 
+  border-radius: 5px; 
+  padding: 10px 20px; 
+  cursor: pointer;
+  margin-top: 15px;
+  transition: background-color 0.3s ease, color 0.3s ease; 
+}
+
+
+.showItems button:hover {
+  background-color: #0056b3; 
+}
+
